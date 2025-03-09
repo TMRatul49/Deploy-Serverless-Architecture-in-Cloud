@@ -43,16 +43,16 @@ git --version
 git clone https://github.com/your-username/serverless-cloud-deployment.git
 cd serverless-cloud-deployment
 <br>
-2️⃣ Install Terraform and Docker
-3️⃣ Start LocalStack in Docker
+2️⃣ Install Terraform and Docker <br>
+3️⃣ Start LocalStack in Docker <br>
 # Run Docker
 docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 <br>
-4️⃣ Initialize Terraform
+4️⃣ Initialize Terraform <br>
 # Initialize Terraform
 terraform init
 <br>
-5️⃣ Apply the Terraform configuration
+5️⃣ Apply the Terraform configuration <br>
 # Apply Terraform
 terraform apply
 <br>
