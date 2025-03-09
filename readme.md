@@ -27,35 +27,33 @@ Prerequisites
 2. Docker
 3. LocalStack
 <br>
-Steps to Run
+Steps to Run <br>
 1️⃣ Clone this repository
+```bash
+# Update package list
+sudo apt update
 
-bash
-Copy
-Edit
+# Install Git
+sudo apt install git -y
+
+# Check Git version
+git --version
+
+# Clone Git
 git clone https://github.com/your-username/serverless-cloud-deployment.git
 cd serverless-cloud-deployment
 <br>
 2️⃣ Install Terraform and Docker
 3️⃣ Start LocalStack in Docker
-
-bash
-Copy
-Edit
+# Run Docker
 docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 <br>
 4️⃣ Initialize Terraform
-
-bash
-Copy
-Edit
+# Initialize Terraform
 terraform init
 <br>
 5️⃣ Apply the Terraform configuration
-
-bash
-Copy
-Edit
+# Apply Terraform
 terraform apply
 <br>
 6️⃣ Verify deployment using Terraform output 
