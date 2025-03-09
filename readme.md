@@ -1,4 +1,4 @@
-🚀 Deploy a Serverless Architecture in Cloud <br>
+# 🚀 Deploy a Serverless Architecture in Cloud <br>
 📌 Project Overview <br>
 This project explores the integration of serverless computing in cloud environments, emphasizing its potential to revolutionize application deployment and management. The research investigates the key purposes, benefits, and challenges associated with serverless architecture in the cloud. <br>
 Through practical case studies and theoretical analysis, this project aims to provide a comprehensive understanding of how serverless architecture can enhance scalability, cost-efficiency, and ease of management in cloud-based applications. <br>
@@ -29,7 +29,7 @@ Prerequisites
 <br>
 Steps to Run <br>
 1️⃣ Clone this repository
-```bash
+
 # Update package list
 sudo apt update
 
@@ -46,16 +46,19 @@ cd serverless-cloud-deployment <br>
 
 2️⃣ Install Terraform and Docker <br>
 3️⃣ Start LocalStack in Docker <br>
+
 # Run Docker
 docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 <br>
 
 4️⃣ Initialize Terraform <br>
+
 # Initialize Terraform
 terraform init
 <br>
 
 5️⃣ Apply the Terraform configuration <br>
+
 # Apply Terraform
 terraform apply
 <br>
